@@ -1,11 +1,13 @@
 package com.example.demo.model;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
 
-@Setter
-@Getter
+//@Setter
+//@Getter
+@Data
 public class Course {
 	@Id private String idCourse;
 	private String nameCourse;
